@@ -1,70 +1,59 @@
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
-}
+ }
+ 
+ body{
+     font-family: fantasy;
+     background-color: #bcdbe9;
+     color: black;
+ }
 
-body{
-    font-family: fantasy;
-    background-color: #ecd5dc;
-    color: #000000;
-}
-
-header{
+ header{
     position: fixed;
+    background-color: #00ffff;
     display: flex;
+    margin: 10px;
+    border-style: ridge;
     justify-content: space-around;
     align-items: baseline;
-    background-color: #e4c9d5;
+    background-color: #6aace9;
     color: white;
-    padding: 20px 0;
+    padding: 10px;
     text-align: center;
-    border-style: ridge;
     width: 100%;
     z-index: 4;
-    
-
-}
-header nav a{
-    color: #e2365b;
-    font-size: 1.5rem;
+ }
+ header nav a{
+    display: flex;
+    color: #d7e4ee;
     text-decoration: none;
+    font-size: 1.5rem;
     padding: 10px 15px;
     transition: background-color 0.3s;
-}
-header nav a:hover{
-    background-color: #d398a5;
-}
-header ul{
-    position: absolute;
-    list-style: none;
+ }
+ header nav a:hover{
+    background-color: #4487c5;
+ }
+ header ul{
+    position: center;
     display: flex;
-    align-items: center;
-    right: 20%;
-}
-.logo{ 
+    list-style: none;
+ }
+ 
+ .redes{
+    position: center;
+     width: 50px;
+     height: 50px;
+ }
+ 
+ .logo{
+    right: 100%;
     width: 150px;
     height: 150px;
 
+ }
+ main{
     
-}
-.redes{
-    width: 40px;
-    height: 40px;
-
-}
-main{
-    height: 110vh;
-    display: flex;
-}
-
-.modal{
-    position: fixed;
-    left: 50%;
-    top: 20px;
-    width: 60%;
-    background-color: #d398a5;
-    color: #ecd5dc;
-    padding: 20px;
-    z-index: 5;
-}
+ }
