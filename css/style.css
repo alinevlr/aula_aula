@@ -47,7 +47,7 @@ header ul{
 .logo{ 
     width: 150px;
     height: 150px;
-    margin-left: ;
+    margin-left: 20px;
     
 }
 .redes{
@@ -56,9 +56,6 @@ header ul{
     height: 30px;
     margin: 10px;
     right: 500%;
-    
-    
-   
 
 }
 main{
@@ -67,13 +64,22 @@ main{
 }
 
 .modal{
-   position: center;
+   position: absolute;
    padding: 10px;
-   top: 20px;
    width: 60%;
+   top: 30%;
+   height: 25%;
    background-color: #d398a5;
    color: #ecd5dc;
-   padding: 20px;
    z-index: 5;
 }
- 
+ .sessao2{
+    background-color: #d398a5;
+    color: #ecd5dc;
+    position: absolute;
+    top: 60%;
+    width: 60%;
+    height: 25%;
+    z-index: 5;
+    padding: 10px;
+ }
