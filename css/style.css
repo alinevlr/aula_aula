@@ -15,7 +15,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: baseline;
-    background-color: #e4c9d5;
+    background-color: #925167;
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -26,7 +26,7 @@ header{
 
 }
 header nav a{
-    color: #e2365b;
+    color: #e9d2d7;
     font-size: 1.5rem;
     text-decoration: none;
     padding: 10px 10px;
@@ -53,9 +53,11 @@ header ul{
 .redes{
    position: relative;
    justify-content: center;
-    height: 30px;
-    margin: 10px;
-    right: 500%;
+    height: 40px;
+    margin: 3px;
+    right: 280px;
+    margin-top: 180px;
+
 
 }
 main{
@@ -82,4 +84,8 @@ main{
     height: 25%;
     z-index: 5;
     padding: 10px;
+ }
+
+ .navbar-mobile{
+    display: none;
  }
