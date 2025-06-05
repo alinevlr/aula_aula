@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(fonte-principal);
+    background-color: var(--cor-fundo-primaria);
+    cursor: url("cursor/normal.svg"), auto;
+    font-size: var(--tamanho-fonte);
+}
+
+main{
+    display: block;
+   max-width: 1200px;
+   margin: 2rem auto;
+}
+
+.modal{
+   position: absolute;
+   padding: 10px;
+   width: 60%;
+   top: 30%;
+   height: 25%;
+   background-color: #d398a5;
+   color: #f3eaec;
+   z-index: 5;
+}
+ .sessao2{
+    background-color: #d398a5;
+    color: #ecd5dc;
+    position: absolute;
+    top: 60%;
+    width: 60%;
+    height: 25%;
+    z-index: 5;
+    padding: 10px;
+ }
+
+.section-title{
+    text-align: center;
+    padding:2rem 0;
+}

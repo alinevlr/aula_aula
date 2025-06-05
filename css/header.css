@@ -1,0 +1,72 @@
+header{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    background-color: #e4c9d5;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    border-style: ridge;
+    width: 100%;
+    z-index: 4;
+}
+nav a{
+    color: #e23661;
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding: 10px 10px;
+    transition: background-color 0.3s;
+    text-shadow: 2px 4px gray;
+}
+a:hover{
+    background-color: #d398a5;
+    cursor: url("cursor/click.svg"), auto;
+    
+}
+header ul{
+    position: absolute;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    right: 10%;
+}
+
+.logo{ 
+    width: 150px;
+    height: 150px;
+    margin-left: 20px;
+    animation: fadeIn 1s ease-in forwards;
+}
+.logo:hover{
+    animation: pulse 1s infinite;
+}
+
+.redes{
+    width: 2rem;
+    margin-right: 10px;
+}
+
+.menu-icon{
+    display: none;
+    cursor: pointer;
+}
+
+.linha-menu-top, .linha-menu-bottom{
+background-color: #9b184a;
+height: 5px;
+width: 50px;
+margin-top: 10px;
+}
+
+.linha-menu-center{
+    background-color: #d85571;
+    height: 5px;
+    width: 60px;
+    margin-top: 10px;
+    margin-left: -10px;
+}
+
+.menu-toggle {
+    display: none;
+}
